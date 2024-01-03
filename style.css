@@ -51,10 +51,5 @@ h1{
   margin: 5px;
   left: 18px;
 }
-@media screen and (min-width: 1260) {
-  body {
-    height:90vh;
-    width: 35vw;
-  }
-}
+
 
