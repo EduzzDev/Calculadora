@@ -51,9 +51,10 @@ h1{
   margin: 5px;
   left: 18px;
 }
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1269) {
   .fundo {
     height:90vh;
+    width: 35vw;
   }
 }
 
