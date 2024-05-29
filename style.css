@@ -51,5 +51,86 @@ h1{
   margin: 5px;
   left: 18px;
 }
+/* Deixando a calculadora responsiva  */
+
+@media screen and (max-width:600px) {
+  .fundo {
+    width: 55vw;
+    height: 85vh;
+  }
+
+  .calculadora {
+    margin: 8px;
+  }
+}
+
+@media screen and (max-width:599px) {
+  .fundo {
+    width: 58vw;
+    height: 88vh;
+    position: relative;
+    right: 10px;
+  }
+}
+
+@media screen and (max-width:536px) {
+  .fundo {
+    width: 65vw;
+    height: 85vh;
+    position: relative;
+    right: 10px;
+  }
+}
+
+@media screen and (max-width:450px) {
+  .fundo {
+    width: 75vw;
+    height: 85vh;
+    position: relative;
+    right: 10px;
+  }
+
+}
+
+@media screen and (max-width:400px) {
+  .fundo {
+    width: 95vw;
+    height: 88vh;
+    position: relative;
+    right: 10px;
+  }
+
+}
+
+@media screen and (max-width:380px) {
+  .fundo {
+    width: 90vw;
+    height: 88vh;
+    position: relative;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .fundo {
+    width: 80vw;
+    height: 80vh;
+    position: relative;
+  }
+
+  .botao {
+    width: 50px;
+    height: 50px;
+  }
+
+  #resultado {
+    position: relative;
+    right: 25px;
+  }
+
+  h1 {
+    position: relative;
+    left: -5px;
+  }
+}
 
 
