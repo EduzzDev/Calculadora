@@ -104,17 +104,21 @@ h1{
 
 @media screen and (max-width:380px) {
   .fundo {
-    width: 90vw;
+    width: 98vw;
     height: 88vh;
     position: relative;
+  }
+  body {
+    width: 100%;
   }
 }
 
 @media screen and (max-width:320px) {
   .fundo {
-    width: 80vw;
-    height: 80vh;
+    width: 90vw;
+    height: 60vh;
     position: relative;
+    left: 5px;
   }
 
   .botao {
