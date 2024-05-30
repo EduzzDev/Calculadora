@@ -66,7 +66,7 @@ h1{
 
 /* Deixando a calculadora responsiva  */
 
-@media screen and (min-width:600px) {
+@media screen and (max-width:600px) {
   .fundo {
     width: 55vw;
     height: 85vh;
@@ -77,7 +77,7 @@ h1{
   }
 }
 
-@media screen and (min-width:599px) {
+@media screen and (max-width:599px) {
   .fundo {
     width: 58vw;
     height: 88vh;
@@ -86,7 +86,7 @@ h1{
   }
 }
 
-@media screen and (min-width:536px) {
+@media screen and (max-width:536px) {
   .fundo {
     width: 65vw;
     height: 40vh;
@@ -95,7 +95,7 @@ h1{
   }
 }
 
-@media screen and (min-width:450px) {
+@media screen and (max-width:450px) {
   .fundo {
     width: 75vw;
     height: 85vh;
@@ -115,7 +115,7 @@ h1{
 
 }
 
-@media screen and (min-width:380px) {
+@media screen and (max-width:380px) {
   .fundo {
     width: 98vw;
     height: 88vh;
