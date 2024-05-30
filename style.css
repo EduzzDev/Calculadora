@@ -64,7 +64,20 @@ h1{
   }
 }
 
-@media screen and (max-width:599px) {
+/* Deixando a calculadora responsiva  */
+
+@media screen and (min-width:600px) {
+  .fundo {
+    width: 55vw;
+    height: 85vh;
+  }
+
+  .calculadora {
+    margin: 8px;
+  }
+}
+
+@media screen and (min-width:599px) {
   .fundo {
     width: 58vw;
     height: 88vh;
@@ -73,7 +86,7 @@ h1{
   }
 }
 
-@media screen and (max-width:536px) {
+@media screen and (min-width:536px) {
   .fundo {
     width: 65vw;
     height: 40vh;
@@ -82,7 +95,7 @@ h1{
   }
 }
 
-@media screen and (max-width:450px) {
+@media screen and (min-width:450px) {
   .fundo {
     width: 75vw;
     height: 85vh;
@@ -92,7 +105,7 @@ h1{
 
 }
 
-@media screen and (max-width:400px) {
+@media screen and (min-width:400px) {
   .fundo {
     width: 95vw;
     height: 88vh;
@@ -102,7 +115,7 @@ h1{
 
 }
 
-@media screen and (max-width:380px) {
+@media screen and (min-width:380px) {
   .fundo {
     width: 98vw;
     height: 88vh;
@@ -113,7 +126,7 @@ h1{
   }
 }
 
-@media screen and (max-width:320px) {
+@media screen and (min-width:320px) {
   .fundo {
     width: 90vw;
     height: 78vh;
@@ -136,12 +149,12 @@ h1{
     left: -5px;
   }
 }
-@media screen and (max-width:750px) {
+@media screen and (min-width:750px) {
   .fundo {
-    width: 70vw;
+    width: 60vw;
     height: 55vh;
     position: relative;
-    right: 25px;
+    right: 35px;
   }
 
   .botao {
@@ -152,6 +165,11 @@ h1{
   #resultado {
     position: relative;
     right: 25px;
+  }
+
+  h1 {
+    position: relative;
+    left: -5px;
   }
 }
 
