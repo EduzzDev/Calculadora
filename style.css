@@ -151,8 +151,8 @@ h1{
 }
 @media screen and (min-width:750px) {
   .fundo {
-    width: 20vw;
-    height: 65vh;
+    width: 22vw;
+    height: 55vh;
     position: relative;
     right: 35px;
   }
