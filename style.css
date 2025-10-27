@@ -32,7 +32,7 @@ body {
 #resultado {
   background-color: white;
   width: 40.88dvh;
-  height: 6.5dvh;
+  height: 8.5dvh;
   margin-top: 2dvh;
   font-size: clamp(3rem, 1dvw, 2.5rem);
   color: black;
@@ -86,3 +86,4 @@ h1 {
     font-size: clamp(3rem, 1dvw, 2rem);
   }
 }
+
